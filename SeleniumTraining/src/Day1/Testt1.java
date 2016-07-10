@@ -1,11 +1,12 @@
 package Day1;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class Testt1 {
+public class Testt1 implements ISum {
 
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -23,6 +24,16 @@ public class Testt1 {
 		driver.close();
 		//driver.quit();
 		
+		
+		
 	}
+
+
+	public void Add(int a, int b) {
+		System.out.println("print");				
+	}
+		
+	
+	
 
 }
