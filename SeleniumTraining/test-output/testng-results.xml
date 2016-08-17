@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="224" started-at="2016-08-12T03:33:20Z" finished-at="2016-08-12T03:33:20Z">
+    <groups>
+      <group name="FuncTest">
+        <method signature="NewTest3.f3()[pri:0, instance:testNGPackage.NewTest3@2b98378d]" name="f3" class="testNGPackage.NewTest3"/>
+        <method signature="NewTest.f2()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="f2" class="testNGPackage.NewTest"/>
+      </group> <!-- FuncTest -->
+    </groups>
+    <test name="ex2" duration-ms="224" started-at="2016-08-12T03:33:20Z" finished-at="2016-08-12T03:33:20Z">
+      <class name="testNGPackage.NewTest3">
+        <test-method status="PASS" signature="f3()[pri:0, instance:testNGPackage.NewTest3@2b98378d]" name="f3" duration-ms="7" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="fTEst2()[pri:0, instance:testNGPackage.NewTest3@2b98378d]" name="fTEst2" duration-ms="10" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fTEst2 -->
+        <test-method status="PASS" signature="f4()[pri:0, instance:testNGPackage.NewTest3@2b98378d]" name="f4" duration-ms="8" started-at="2016-08-12T09:03:20Z" depends-on-methods="testNGPackage.NewTest3.f3" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f4 -->
+      </class> <!-- testNGPackage.NewTest3 -->
+      <class name="testNGPackage.NewTest2">
+        <test-method status="PASS" signature="fTEst2()[pri:0, instance:testNGPackage.NewTest2@4b9e13df]" name="fTEst2" duration-ms="16" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fTEst2 -->
+      </class> <!-- testNGPackage.NewTest2 -->
+      <class name="testNGPackage.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="beforeSuite" is-config="true" duration-ms="26" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="beforeTest" is-config="true" duration-ms="9" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="4" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="f2" duration-ms="49" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="12" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="f" duration-ms="6" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="afterTest" is-config="true" duration-ms="1" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNGPackage.NewTest@cb5822]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-08-12T09:03:20Z" finished-at="2016-08-12T09:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNGPackage.NewTest -->
+    </test> <!-- ex2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
